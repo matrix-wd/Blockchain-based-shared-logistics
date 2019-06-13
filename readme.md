@@ -72,25 +72,25 @@ npm run watch
 # 五、部分程序运行界面
 
 ### 1、系统首页
-![image](https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/index.jpg)
+<img src="https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/index.jpg" />
 
 ### 2、资源展示
-![image](https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/resource.jpg)
+<img src="https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/resource.jpg" />
 
 ### 3、资源详情
-![image](https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/info.jpg)
+<img src="https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/info.jpg" />
 
 ### 4、用户中心
-![image](https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/user-info.jpg)
+<img src="https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/user-info.jpg" />
 
 ### 5、资源发布
-![image](https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/createResource.jpg)
+<img src="https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/createResource.jpg" />
 
 ### 6、仪表盘
-![image](https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/user-dashboard.jpg)
+<img src="https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/user-dashboard.jpg" />
 
 ### 7、合约管理
-![image](https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/contract-admin.jpg)
+<img src="https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/contract-admin.jpg" />
 
 
 # 六、不足分析
