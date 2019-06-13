@@ -1,0 +1,102 @@
+@import "./index.less";
+.first-row {
+    margin-top: 30px;
+    .logo-img {
+        cursor: pointer;
+        width: 150px;
+    }
+    .search-box {
+        position: relative;
+        top: 4px;
+        left: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        display: inline-block;
+        width: 700px;
+        height: 44px;
+        .user-input {
+            outline: none;
+            font-size: 13px;
+            padding-left: 20px;
+            border: none;
+            height: 100%;
+            width: 640px;
+            border-radius: 3px;
+        }
+        .search-icon {
+            cursor: pointer;
+            text-align: center;
+            line-height: 44px;
+            float: right;
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 100%;
+            top: -43px;
+        }
+    }
+    .status {
+        position: relative;
+        top: 22px;
+        display: inline-block;
+        width: 300px;
+        height: 44px;
+        ul {
+            display: inline-block;
+            margin-left: 30px;
+            li {
+                cursor: pointer;
+                line-height: 44px;
+                font-size: 16px;
+                color: black;
+                font-weight: 600;
+                list-style: none;
+                float: left;
+                margin-left: 28px;
+            }
+            li:hover {
+                color: @primary-color;
+            }
+            .active {
+                color: @primary-color;
+            }
+        }
+    }
+    .divider-line {
+        padding-top: 10px;
+    }
+}
+.select-type-box {
+    .title-p {
+        font-size: 18px;
+        font-weight: 600;
+        padding: 20px 0;
+        .number {
+            padding: 0 4px;
+            color: @primary-color;
+        }
+    }
+    .order-type {
+        margin-top: 20px;
+        ul {
+            li {
+                user-select:none;
+                border-bottom: 2px solid white;
+                float: left;
+                list-style: none;
+                font-size: 15px;
+                margin-right: 40px;
+                cursor: pointer;
+                padding-bottom: 10px;
+            }
+            .active {
+                color: @primary-color;
+                border-color: @primary-color;
+            }
+        }
+    }
+}
+.page-box {
+    float: right;
+    padding: 40px 0;
+}
