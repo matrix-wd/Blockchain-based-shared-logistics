@@ -67,7 +67,7 @@ npm run watch
 ```
 
 # 四、数据库E-R图
-![image](https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/数据库.jpg)
+<img src="https://github.com/deng1234/Blockchain-based-shared-logistics/blob/master/img/数据库.jpg" />
 
 # 五、部分程序运行界面
 
