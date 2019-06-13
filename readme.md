@@ -66,11 +66,34 @@ npm install
 npm run watch
 ```
 
-# 四、部分界面
+# 四、数据库E-R图
+<img src="https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/数据库.jpg" width="100%">
+
+# 五、部分程序运行界面
+
+### 1、系统首页
+<img src="https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/index.jpg" width="100%">
+
+### 2、资源展示
+<img src="https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/resource.jpg" width="100%">
+
+### 3、资源详情
+<img src="https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/info.jpg" width="100%">
+
+### 4、用户中心
+<img src="https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/user-info.jpg" width="100%">
+
+### 5、资源发布
+<img src="https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/createResource.jpg" width="100%">
+
+### 6、仪表盘
+<img src="https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/user-dashboard.jpg" width="100%">
+
+### 7、合约管理
+<img src="https://github.com/deng1234/Blockchain-based-shared-logistics/tree/master/img/contract-admin.jpg" width="100%">
 
 
-
-# 五、不足分析
+# 六、不足分析
 1. 后端虽然采用了RESTful架构实现接口，但是却没有严格按照RESTful架构去封装接口，使用不够规范。
 2. 前端和后端交互的时候应该在VueX中action去交互，但却写在组件的methods中，导致部分函数的冗余。
 3. 组件模块的划分粒度没有掌握好，导致有些组件过大，有些过小。
