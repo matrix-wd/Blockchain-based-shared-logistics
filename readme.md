@@ -48,6 +48,7 @@ create database graduate
 
 ### 2、运行迁徙(根据迁徙文件创建数据表)
 ```
+# 此处也可以不运行迁徙文件，可以之间导入graduate.sql
 php artisan migrate
 ```
 
@@ -61,7 +62,15 @@ php artisan db:seed
 npm install
 ```
 
-### 4、运行
+### 5、创建软链接
+```
+# 将storage下面存储的内容链接到public目录下
+eg:
+ln -s ./storage/app/warehouse ./public/warehouse
+ln -s ./storage/app/conveyance ./public/conveyance
+```
+
+### 6、运行
 ```
 npm run watch
 ```
